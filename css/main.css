@@ -1,1 +1,227 @@
 /* Los estilos de tu proyecto */
+/*menu*/
+.navbar img {
+  margin-left: 30%;
+  padding: 10%;
+}
+
+#navbarNavAltMarkup {
+  margin-left: 60%;
+}
+
+/*primera parte*/
+#containerUno {
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: 0% 92%;
+}
+
+#containerPequeño {
+  background-color: #F7B617;
+  margin-left: 60%;
+  margin-top: 8%;
+  padding: 3%;
+}
+
+#containerPequeño h2, h5, h6 {
+  color: #ffffff;
+}
+
+#containerPequeño h2 {
+  padding-bottom: 5%;
+}
+
+#containerPequeño h5 {
+  padding-bottom: 4%;
+}
+
+#containerPequeño h5 img{
+  padding-left: 3%;
+}
+
+#containerPequeño h6 {
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+#containerPequeño hr {
+  color: #ffffff;
+  width: 5%;
+
+}
+
+/*segunda parte*/
+
+#containerDos {
+  background-color: #F7B617;
+}
+
+#border {
+  border: 2px solid #ffffff;
+  margin-top: 8%;
+  width: 95%;
+  height: 70%;
+  margin-bottom: 30%;
+  border-left: none;
+}
+
+#imagen {
+  padding: 15%;
+  margin-top: 75%;
+  margin-bottom: 45%;
+  margin-left: 65%;
+  width: 465%;
+}
+
+#texto {
+  color: #ffffff;
+  margin-top: -40%;
+  margin-left: 58%;
+}
+
+#texto p {
+  margin-top: 5%;
+  width: 53%;
+  font-size: 120%;
+}
+
+/*tercera parte*/
+
+#imagenFondo {
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  height: 70vh;
+  background-position: 0% 55%;
+}
+
+#textoDos {
+  background-color: rgba(0,0,000,0.5);
+  height: 70vh;
+  float: right;
+  color: #ffffff;
+  padding: 2%;
+}
+
+#textoDos h2 {
+  margin-top: 15%;
+  margin-left: 3%;
+}
+
+#textoDos h4 {
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+#textoDos button {
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+/*cuarta parte*/
+
+#cuartaParte {
+  background-color: #F7B617;
+}
+
+#cuartaParte h2 {
+  color: #ffffff;
+}
+
+#textoTres {
+  margin: 5%;
+}
+
+#icono img {
+  margin-top: 35%;
+  width: 25%;
+}
+
+.form-group input {
+  width: 100%;
+  margin-right: 55%;
+  background-color: #F7B617;
+  border-color: #ffffff;
+}
+
+.form-group input::placeholder {
+  color: #ffffff;
+}
+
+#btn button {
+  margin-left: 120%;
+  margin-top: 5%;
+}
+
+#mapa iframe {
+  margin: 5% 0% 5% 25%;
+}
+
+/*footer*/
+
+#containerFooter {
+  background-color: #2B2B2B;
+}
+
+#logoFooter img {
+  margin-top: 25%;
+  margin-left: 32%;
+  margin-bottom: 5%;
+}
+
+.containerFooter {
+  width: 80%;
+  margin-left: 8%;
+}
+
+.containerFooter div {
+  border-bottom: 1px solid #ffffff;
+}
+
+#textoFooter {
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 22%;
+}
+
+#textoFooterDos {
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+#imagenesFooter img {
+  width: 50%;
+}
+
+#imagenesFooter img:first-child {
+  margin-top: 90%;
+  margin-bottom: 5%;
+}
+
+#iconosFooter ul {
+  padding: 0%;
+}
+
+#iconosFooter ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 2%;
+}
+
+#iconosFooter i {
+  color: #ffffff;
+}
+
+.containerFooterDos {
+  width: 95%;
+  margin-bottom: 3%;
+}
+
+.containerFooterDos #ultimaLineaFooter {
+  border-bottom: 1px solid #ffffff;
+}
+
+#ultimaParteFooter p {
+  margin-top: 5%;
+  color: #ffffff;
+}
