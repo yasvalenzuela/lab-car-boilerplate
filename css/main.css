@@ -1,4 +1,11 @@
 /* Los estilos de tu proyecto */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /*menu*/
 .navbar img {
   margin-left: 30%;
@@ -6,7 +13,17 @@
 }
 
 #navbarNavAltMarkup {
-  margin-left: 60%;
+  margin-left: 40%;
+  width: 30%;
+}
+
+#navbarNavAltMarkup a:last-child {
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+#iconoMenu a {
+  display: none;
 }
 
 /*primera parte*/
@@ -43,12 +60,16 @@
 #containerPequeño h6 {
   padding-top: 9%;
   padding-bottom: 9%;
+  text-align: center;
 }
 
 #containerPequeño hr {
   color: #ffffff;
   width: 5%;
+}
 
+#movilUno {
+  display: none;
 }
 
 /*segunda parte*/
@@ -64,6 +85,10 @@
   height: 70%;
   margin-bottom: 30%;
   border-left: none;
+}
+
+#textoMovil {
+  display: none;
 }
 
 #imagen {
@@ -84,6 +109,10 @@
   margin-top: 5%;
   width: 53%;
   font-size: 120%;
+}
+
+#textoMovilUno {
+  display: none;
 }
 
 /*tercera parte*/
@@ -148,6 +177,7 @@
   color: #ffffff;
 }
 
+
 #btn button {
   margin-left: 120%;
   margin-top: 5%;
@@ -176,6 +206,10 @@
 
 .containerFooter div {
   border-bottom: 1px solid #ffffff;
+}
+
+#iconoMovilFooter {
+  display: none;
 }
 
 #textoFooter {
@@ -224,4 +258,226 @@
 #ultimaParteFooter p {
   margin-top: 5%;
   color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  [class*="col-"] {
+  max-width: 100%;
+  flex: none;
+  }
+
+    body {
+    padding: 0;
+    margin: 0;
+  }
+
+  #iconoMenu a {
+    display: inline-block;
+    margin-top: 0%;
+    margin-right: 5%;
+    color: #000000;
+  }
+
+  #navbarNavAltMarkup a {
+    display: none;
+}
+
+  .navbar img {
+    margin-left: -25%;
+    margin-top: 25%;
+  }
+
+/*primera parte*/
+  #containerPequeño {
+    display: none;
+}
+
+  #movilUno {
+    display: block;
+    background-color: #F7B617;
+    margin-left: 20%;
+    margin-top: 50%;
+    width: 70vh;
+  }
+
+  #movilUno h1 {
+    color: #ffffff;
+    font-size: 260%;
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+
+  #movilUno img {
+    width: 20%;
+  }
+
+  #movilUno button {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    height: 8vh;
+    width: 45%;
+    border-radius: 8px;
+  }
+
+  #movilUno button {
+    color: #000000;
+    font-size: 125%;
+  }
+
+/*segunda parte*/ 
+
+  #border {
+    border: 1px solid #ffffff;
+    margin: 5% 2.5%;
+    height: 50vh;
+  }
+
+    #border img {
+    width: 50vh;
+    height: 50vh;
+    margin-top: -15%;
+    margin-left: 5%;
+  }
+
+  #texto {
+    display: none;
+}
+
+  #textoMovil {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  #textoMovil h2 {
+    font-size: 120%;
+  }
+
+  #textoMovilUno {
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #ffffff;
+  }
+
+  #textoMovilUno p {
+    font-size: 100%;
+    margin-bottom: 2%;
+  }
+
+/*tercera parte*/
+#textoDos h2 {
+  font-size: 120%;
+  margin-top: 25%;
+  margin-left: 5%;
+}
+
+  #textoDos h4 {
+    font-size: 80%;
+    margin-left: 5%;
+  }
+
+  #textoDos button {
+    color: #ffffff;
+  }
+
+/*cuarta parte*/
+
+  #textoTres {
+    width: 80%;
+  }
+  #textoTres h2 {
+    font-size: 100%;
+    margin-top: 15%;
+  }
+
+  #textoTres h5 {
+    font-size: 100%;
+  }
+
+  #icono img {
+    width: 4%;
+    margin-top: 10%;
+  }
+
+  .form-group input {
+    width: 80%;
+    margin-top: -10%;
+    margin-left: 10%;
+  }
+
+#btn button {
+  margin-left: 25%;
+}
+
+  #mapa iframe {
+    margin-left: 5%;
+    width: 85%;
+    height: 40vh;
+  }
+
+/*footer*/
+
+  #logoFooter img {
+    margin: 2% 4%;
+  }
+
+  .containerFooter {
+    width: 95%;
+    border: 0.1px solid #ffffff;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  #iconoMovilFooter {
+    display: block;
+    font-size: 80%;
+    margin-left: 55%;
+    margin-top: 5%;
+}
+
+  #textoFooter {
+    margin-left: 5%;
+    width: 50%;
+}
+
+  #textoFooter p {
+    width: 50%;
+    margin: 2% 0% 0% 0%;
+}
+
+  #textoFooterDos {
+    display: none;
+  }
+
+  #imagenesFooter img:first-child {
+    width: 30%;
+    margin-top: -65%;
+    margin-left: 50%;
+}
+
+  #imagenesFooter img:last-child {
+    width: 30%;
+    margin-left: 50%;
+    margin-top: -55%;
+}
+
+  #footerIconos {
+    display: none;
+  }
+
+  #ultimaLineaFooter {
+    width: 190%;
+    border: 1px solid #ffffff;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  #ultimaParteFooter p{
+    font-size: 80%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+  }
 }
